@@ -4,8 +4,8 @@ import TweetEditorInput from "./tweet-editor-form/tweet-editor-input";
 export default function TweetEditorForm() {
   return (
     <div className="tweet-editor-form">
-      <TweetEditorButton />
       <TweetEditorInput />
+      <TweetEditorButton />
     </div>
   );
 }

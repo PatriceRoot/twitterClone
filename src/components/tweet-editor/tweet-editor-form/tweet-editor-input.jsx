@@ -1,5 +1,5 @@
 export default function TweetEditorInput(){
     return (
-        <p className="tweet-editor-input">Whats happening?</p>
+        <input type="text" placeholder={`What's happening ?`} className="tweet-editor-input"></input>
     )
 }

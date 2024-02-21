@@ -1,8 +1,10 @@
+import ProfilePhoto from '../../assets/images/profile.png'
+
 export default function Avatar() {
   return (
     <img
       className="avatar"
-      src="../../assets/images/Profile-Photo.jpg"
+      src={ProfilePhoto}
       alt="avatar"
     />
   );

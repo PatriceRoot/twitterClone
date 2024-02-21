@@ -4,8 +4,8 @@ import TweetEditorAction from "./tweet-editor-button/tweet-editor-actions";
 export default function TweetEditorButton() {
   return (
     <div className="tweet-editor-buttons">
-      <Button />
       <TweetEditorAction />
+      <Button />
     </div>
   );
 }
