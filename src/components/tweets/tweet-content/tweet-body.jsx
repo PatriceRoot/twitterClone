@@ -3,12 +3,13 @@ import TweetText from "./tweet-body/tweet-text"
 import TweetImage from "./tweet-body/tweet-image"
 
 
-export default function TweetBody() {
-    return (
+export default function TweetBody({avatar}) {
+    console.log(avatar);
+       return (
         <div className="tweet-body">
-            <TweetTitle />
-            <TweetText />
-            <TweetImage />
+            <TweetTitle authors={avatar?.tweet_authors} tag={avatar?.tweet_tag} time={avatar?.tweet_time}/>
+            <TweetText text={avatar?.tweet_text}/>
+            {avatar && avatar.tweet_image && <TweetImage image={avatar?.tweet_image}/>}
         </div>
     )
 }

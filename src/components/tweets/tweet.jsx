@@ -1,11 +1,12 @@
 import TweetAvatar from "./tweet-avatar";
 import TweetContent from "./tweet-content";
 
-export default function Tweet() {
+
+export default function Tweet({value}) {
   return (
     <div className="tweet">
-      <TweetAvatar />
-      <TweetContent />
+      <TweetAvatar avatar={value?.tweet_avatar}/>
+      <TweetContent content = {value?.tweet_content}/>
     </div>
   );
 }

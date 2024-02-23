@@ -1,5 +1,5 @@
-import Post from "../../../../assets/images/Post.png";
+// import Post from "../../../../assets/images/Post.png";
 
-export default function TweetImage() {
-  return <img className="tweet-image" src={Post} alt="new york times logo" />;
+export default function TweetImage({image}) {
+  return <img className="tweet-image" src={image} alt="new york times logo" />;
 }

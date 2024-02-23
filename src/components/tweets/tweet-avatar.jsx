@@ -1,7 +1,6 @@
-import NyTimes from "../../assets/images/nyp.png";
 
-export default function TweetAvatar() {
+export default function TweetAvatar({avatar}) {
   return (
-    <img className="tweet-avatar" src={NyTimes} alt="new york times logo" />
+    <img className="tweet-avatar" src={avatar} alt="new york times logo" />
   );
 }

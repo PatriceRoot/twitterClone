@@ -1,7 +1,7 @@
-export default function TweetTitleDetails(){
+export default function TweetTitleDetails({tag, time}){
     return (
         <div className="tweet-title-details">
-            <span>@nytimes . 2h</span>
+            <span>{tag} . {time}</span>
         </div>
     )
 }

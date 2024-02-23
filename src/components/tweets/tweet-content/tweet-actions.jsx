@@ -4,12 +4,12 @@ import Retweet from "../../../assets/icons/Retweet.svg";
 import React from "../../../assets/icons/React.svg";
 import Share from "../../../assets/icons/Share.svg";
 
-export default function TweetActions() {
+export default function TweetActions({avatar}) {
   return (
     <div className="tweet-actions">
-      <TweetAction source={Reply} count="19"/>
-      <TweetAction source={Retweet} count="48"/>
-      <TweetAction source={React} count="482"/>
+      <TweetAction source={Reply} count={avatar?.reply}/>
+      <TweetAction source={Retweet} count={avatar?.retweet}/>
+      <TweetAction source={React} count={avatar?.react}/>
       <TweetAction source={Share} />
     </div>
   );
