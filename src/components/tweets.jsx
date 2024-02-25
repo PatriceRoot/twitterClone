@@ -34,8 +34,8 @@ export default function Tweets() {
           share: "",
         },
         tweet_text:
-          "President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a 'major breakthrough' that would serve to both strengthen the US steel industry and combat the global climate crisis.",
-        tweet_image: "/ProfilePhoto1.png",
+          "Gardening boomed during the pendemic. Six Black writters share how haw helped them re-establish, and reimagine, a connection to cultivation and the land.",
+        tweet_image: "/Post.png",
       },
     },
 
@@ -49,11 +49,11 @@ export default function Tweets() {
         tweet_actions: {
           reply: "6.8K",
           retweet: "36.6K",
-          react: "267K",
+          react: "267.1K",
           share: "",
         },
         tweet_text:
-          "President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a 'major breakthrough' that would serve to both strengthen the US steel industry and combat the global climate crisis.",
+          "BIG NEWS lol jk still Twitter.",
       },
     },
 
@@ -71,7 +71,7 @@ export default function Tweets() {
           share: "",
         },
         tweet_text:
-          "President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a 'major breakthrough' that would serve to both strengthen the US steel industry and combat the global climate crisis.",
+          "Hello litteraly everyone.",
       },
     },
 
@@ -88,7 +88,7 @@ export default function Tweets() {
           react: "184",
           share: "",
         },
-        tweet_text: "fdgedhegedxf.",
+        tweet_text: "Hello litteraly everyone.",
       },
     },
   ];
