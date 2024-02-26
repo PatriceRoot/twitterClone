@@ -95,7 +95,6 @@ export default function Tweets() {
 
   return (
     <div className="tweets">
-      <Tweet />
       {tweets.map((item, i) => (
         <Tweet key={i} value={item} />
       ))}
