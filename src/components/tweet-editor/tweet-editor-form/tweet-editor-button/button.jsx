@@ -1,5 +1,7 @@
 export default function Button (){
     return (
-        <button className="button">Tweet</button>
+        <div className="button">
+            Tweet
+        </div>
     )
 }
