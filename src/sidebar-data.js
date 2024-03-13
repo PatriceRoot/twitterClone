@@ -4,7 +4,7 @@ import explore from "../src/assets/icons/Explore.svg";
 import notifications from "../src/assets/icons/Notifications.svg";
 import messages from "../src/assets/icons/Messages.svg";
 import bookmarks from "../src/assets/icons/Bookmarks.svg";
-import lists from "../src/assets/icons/Lists.svg";
+import lists from "../src/assets/icons/List.svg";
 import profile from "../src/assets/icons/Profile.svg";
 import more from "../src/assets/icons/More.svg";
 

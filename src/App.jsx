@@ -3,6 +3,7 @@ import TweetEditor from "./components/tweet-editor.jsx";
 import Tweets from "./components/tweets.jsx";
 import Sidebar from "./components/sidebar.jsx";
 import "./App.css";
+import Trends from "./components/trends.jsx";
 
 export default function Timeline() {
   return (
@@ -15,7 +16,9 @@ export default function Timeline() {
       <TweetEditor />
       <Tweets />
     </div>
-    <div className="sidebar"></div>
+    <div>
+      <Trends/>
+    </div>
     </>
   );
 }
