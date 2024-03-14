@@ -4,8 +4,8 @@ export default function FollowBody({ value }) {
       <div className="follow-image">
         <img src={value.image} alt="" />
       </div>
-      <div className="follow-title">
-        <h3>{value.title}</h3>
+      <div className="follow-titles">
+        <h4>{value.title}</h4>
         <p>{value.link}</p>
       </div>
       <div className="follow-button">

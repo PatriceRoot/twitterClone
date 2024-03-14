@@ -244,7 +244,8 @@ h4 {
   margin: 5px;
 }
 
-.trends-body {
+.trends-body,
+.follow-body {
   display: flex;
   justify-content: space-between;
   padding: 5px;
@@ -289,4 +290,44 @@ h4 {
 
 .follow-body {
   display: flex;
+}
+
+.follow-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.follow p,
+h4 {
+  margin: 5px;
+}
+
+.follow-titles {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.follow p,
+.trend p {
+  color: #8a8a8a;
+}
+
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: #8a8a8a;
+  padding-top: 20px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footer1,
+.footer2 {
+  display: flex;
+  gap: 15px;
 }

@@ -5,6 +5,7 @@ import Sidebar from "./components/sidebar.jsx";
 import "./App.css";
 import Trends from "./components/trends.jsx";
 import Follow from "./components/trends/follow.jsx";
+import Footer from "./components/footer.jsx";
 
 export default function Timeline() {
   return (
@@ -20,6 +21,7 @@ export default function Timeline() {
       <div style={{ flex: "0 0 25%" }}>
         <Trends />
         <Follow />
+        <Footer />
       </div>
     </>
   );
