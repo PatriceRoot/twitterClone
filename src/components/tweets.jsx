@@ -52,8 +52,7 @@ export default function Tweets() {
           react: "267.1K",
           share: "",
         },
-        tweet_text:
-          "BIG NEWS lol jk still Twitter.",
+        tweet_text: "BIG NEWS lol jk still Twitter.",
       },
     },
 
@@ -70,8 +69,7 @@ export default function Tweets() {
           react: "3.3M",
           share: "",
         },
-        tweet_text:
-          "Hello litteraly everyone.",
+        tweet_text: "Hello litteraly everyone.",
       },
     },
 

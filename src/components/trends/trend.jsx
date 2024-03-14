@@ -5,7 +5,7 @@ import TrendTitle from "./trend/trend-title";
 
 export default function Trend() {
   return (
-    <div className="trends-body">
+    <div className="trend">
       <TrendTitle />
       {trendsData.map((item, i) => (
         <TrendsBody key={i} value={item} />

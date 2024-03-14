@@ -14,7 +14,7 @@ body {
 }
 
 .timeline {
-  flex: 0 0 800px;
+  flex: 0 0 50%;
   font-family: "Inter", sans-serif;
   border-left: 1px solid #2f3336;
   border-right: 1px solid #2f3336;
@@ -228,4 +228,65 @@ body {
   width: 150px;
   text-align: center;
   font-weight: bold;
+}
+
+.trend,
+.follow {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #202327;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.trend p,
+h4 {
+  margin: 5px;
+}
+
+.trends-body {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.trend-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  background-color: #202327;
+  padding: 3px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  color: #202327;
+  font-size: large;
+}
+
+.trend-more {
+  color: #1d9bf0;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+}
+
+.follow-button button {
+  padding: 5px 20px;
+  border-radius: 50px;
+  color: black;
+  border: transparent;
+  font-size: medium;
+}
+
+.follow-body {
+  display: flex;
 }
