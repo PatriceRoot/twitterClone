@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom";
 
-export default function TweetAvatar({avatar}) {
+export default function TweetAvatar({ avatar, username }) {
   return (
-    <img className="tweet-avatar" src={avatar} alt="new york times logo" />
+    <Link to={`/${username}`}>
+      <img className="tweet-avatar" src={avatar} />
+    </Link>
   );
 }

@@ -1,22 +1,18 @@
+import { useState } from "react";
+
 export default function TweetAction(props) {
+  const [state, setState] = useState(false);
+  function handleState() {
+    setState(!state);
+  }
   return (
-    <div className="tweet-action">
-      <img src={props.source} alt="media icon" />
+    <div
+      onMouseEnter={handleState}
+      onMouseLeave={handleState}
+      className="tweet-action"
+    >
+      {state ? props.onsource : props.source}
       <span>{props.count}</span>
     </div>
   );
 }
-
-// export default function TweetAction({ avatar, verify }) {
-//   return (
-//     <div
-//       title={avatar.title}
-//       className="tweet-action"
-//       onMouseEnter={verify}
-//       onMouseLeave={verify}
-//       style={{ color: avatar.color, cursor: "pointer" }}
-//     >
-//       {avatar.source} {avatar.count && avatar.nbr}
-//     </div>
-//   );
-// }
