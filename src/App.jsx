@@ -6,17 +6,16 @@ import "./App.css";
 import Trends from "./components/trends.jsx";
 import Follow from "./components/trends/follow.jsx";
 import Footer from "./components/footer.jsx";
+import { Outlet } from "react-router-dom";
 
-export default function Timeline() {
+export default function App() {
   return (
     <>
       <div style={{ flex: "0 0 25%" }}>
         <Sidebar />
       </div>
       <div className="timeline">
-        <Header />
-        <TweetEditor />
-        <Tweets />
+        <Outlet />
       </div>
       <div style={{ flex: "0 0 25%" }}>
         <Trends />

@@ -1,4 +1,4 @@
-import twitter from "../src/assets/icons/Twitter.svg"
+import twitter from "../src/assets/icons/Twitter.svg";
 import home from "../src/assets/icons/Home-Fill.svg";
 import explore from "../src/assets/icons/Explore.svg";
 import notifications from "../src/assets/icons/Notifications.svg";
@@ -8,38 +8,48 @@ import lists from "../src/assets/icons/List.svg";
 import profile from "../src/assets/icons/Profile.svg";
 import more from "../src/assets/icons/More.svg";
 
-export const data = [{
-    logo : twitter
-},
-{
-    logo : home,
+export const data = [
+  {
+    logo: twitter,
+  },
+  {
+    logo: home,
     title: "Home",
-},
-{
-    logo : explore,
+    path: "/",
+  },
+  {
+    logo: explore,
     title: "Explore",
-},
-{
-    logo : notifications,
+    path: "/",
+  },
+  {
+    logo: notifications,
     title: "Notifications",
-},
-{
-    logo : messages,
+    path: "/",
+  },
+  {
+    logo: messages,
     title: "Messages",
-},
-{
-    logo : bookmarks,
+    path: "/",
+  },
+  {
+    logo: bookmarks,
     title: "Bookmarks",
-},
-{
-    logo : lists,
+    path: "/",
+  },
+  {
+    logo: lists,
     title: "Lists",
-},
-{
-    logo : profile,
+    path: "/",
+  },
+  {
+    logo: profile,
     title: "Profile",
-},
-{
-    logo : more,
+    path: "/bradley_",
+  },
+  {
+    logo: more,
     title: "More",
-},]
+    path: "/",
+  },
+];

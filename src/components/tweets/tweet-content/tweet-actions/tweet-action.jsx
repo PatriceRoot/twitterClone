@@ -6,3 +6,17 @@ export default function TweetAction(props) {
     </div>
   );
 }
+
+// export default function TweetAction({ avatar, verify }) {
+//   return (
+//     <div
+//       title={avatar.title}
+//       className="tweet-action"
+//       onMouseEnter={verify}
+//       onMouseLeave={verify}
+//       style={{ color: avatar.color, cursor: "pointer" }}
+//     >
+//       {avatar.source} {avatar.count && avatar.nbr}
+//     </div>
+//   );
+// }
