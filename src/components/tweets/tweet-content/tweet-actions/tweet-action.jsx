@@ -12,7 +12,7 @@ export default function TweetAction(props) {
       className="tweet-action"
     >
       {state ? props.onsource : props.source}
-      <span>{props.count}</span>
+      <span style={{ color: state && props.color }}>{props.count}</span>
     </div>
   );
 }

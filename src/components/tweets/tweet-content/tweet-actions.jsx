@@ -204,80 +204,25 @@ export default function TweetActions({ avatar }) {
         source={actions.reply}
         count={avatar?.reply}
         onsource={actions.onreply}
+        color={"blue"}
       />
       <TweetAction
         source={actions.retweet}
         count={avatar?.retweet}
         onsource={actions.onretweet}
+        color={"green"}
       />
       <TweetAction
         source={actions.react}
         count={avatar?.react}
         onsource={actions.onreact}
+        color={"red"}
       />
-      <TweetAction source={actions.share} onsource={actions.onshare} />
+      <TweetAction
+        source={actions.share}
+        onsource={actions.onshare}
+        color={"blue"}
+      />
     </div>
   );
 }
-
-// export default function TweetActions({ actions }) {
-//   const [state, setState] = useState(Array(4).fill(false));
-//   const verify = (i) => {
-//     const newSvg = state.slice();
-//     newSvg[i] = !newSvg[i];
-//     setState(newSvg);
-//   };
-//   const acts = [
-//     {
-//       source: (
-//         <Reply
-//           Csvg={state[0] ? "#1d52f022" : ""}
-//           color={state[0] ? "#1d52f0" : "#6E767D"}
-//         />
-//       ),
-//       count: actions.reply,
-//       title: "Reply",
-//       color: state[0] ? "#1d52f0" : "#6E767D",
-//     },
-//     {
-//       source: (
-//         <React
-//           Csvg={state[1] && "#1df04022"}
-//           color={state[1] ? "#1df040" : "#6E767D"}
-//         />
-//       ),
-//       count: actions.react,
-//       title: "React",
-//       color: state[1] ? "#1df040" : "#6E767D",
-//     },
-//     {
-//       source: (
-//         <Retweet
-//           Csvg={state[2] && "#f8358a22"}
-//           color={state[2] ? "#f8358a" : "#6E767D"}
-//         />
-//       ),
-//       count: actions.retweet,
-//       title: "Retweet",
-//       color: state[2] ? "#f8358a" : "#6E767D",
-//     },
-//     {
-//       source: (
-//         <Share
-//           Csvg={state[3] && "#1d52f022"}
-//           color={state[3] ? "#1d52f0" : "#6E767D"}
-//         />
-//       ),
-//       title: "Share",
-//       color: state[3] ? "#1d52f0" : "#6E767D",
-//     },
-//   ];
-
-//   return (
-//     <div className="tweet-actions">
-//       {acts.map((e, i) => (
-//         <TweetAction key={i} action={e} verify={() => verify(i)} />
-//       ))}
-//     </div>
-//   );
-// }
