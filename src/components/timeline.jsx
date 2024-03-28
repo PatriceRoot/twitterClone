@@ -5,7 +5,7 @@ import Tweets from "./tweets";
 
 export default function Timeline() {
   return (
-    <div>
+    <div className="timeline">
       <Header />
       <TweetEditor />
       <Tweets />

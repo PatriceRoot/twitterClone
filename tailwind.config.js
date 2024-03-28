@@ -4,5 +4,10 @@ export default {
   theme: {
     extend: {},
   },
+  theme: {
+    fontFamily: {
+      sans: ["Inter", "sans-serif"],
+    },
+  },
   plugins: [],
 };
