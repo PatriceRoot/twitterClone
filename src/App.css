@@ -4,6 +4,14 @@
 @tailwind utilities;
 
 @layer components {
+  body {
+    @apply bg-black text-white m-[0_auto];
+  }
+
+  #root {
+    @apply w-full flex justify-between;
+  }
+
   .timeline {
     @apply flex-[0_0_50%] border-x border-solid border-[#2f3336];
   }
@@ -137,24 +145,16 @@
     @apply text-[#1d9bf0] text-base text-[bold] border-none bg-transparent;
   }
 
-  .follow-button {
-    @apply relative flex gap-5 text-sm;
-  }
-
   .follow-button button {
     @apply p-[5px_12px] rounded-[50px] text-black border-transparent text-[medium] bg-white text-black;
   }
 
   .follow-body {
-    @apply flex;
-  }
-
-  .follow-title {
-    @apply flex-col justify-between;
+    @apply flex justify-between;
   }
 
   .follow-titles {
-    @apply p-0 m-0 flex-col;
+    @apply flex-col content-start;
   }
 
   .follow p,
@@ -174,16 +174,4 @@
   .hover {
     @apply text-white rounded-[50%] p-[5px];
   }
-}
-
-body {
-  background-color: black;
-  color: white;
-  margin: 0 auto;
-  max-width: 1800px;
-}
-#root {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
 }
