@@ -58,58 +58,58 @@
 
   .tweet {
     @apply flex justify-start items-start gap-5 px-6 py-4 border-b border-solid border-[#2f3336];
+  }
 
-    .tweet-content {
-      @apply flex-col items-start justify-start gap-[30px] w-full;
-    }
+  .tweet-content {
+    @apply flex-col items-start justify-start gap-[30px] w-full;
+  }
 
-    .tweet-body {
-      @apply flex-col gap-2;
-    }
+  .tweet-body {
+    @apply flex-col gap-2;
+  }
 
-    .tweet-title {
-      @apply flex content-start items-start gap-2.5 text-base;
-    }
+  .tweet-title {
+    @apply flex content-start items-start gap-2.5 text-base;
+  }
 
-    .tweet-title-author {
-      @apply text-base;
-    }
+  .tweet-title-author {
+    @apply text-base;
+  }
 
-    .tweet-title-details {
-      @apply text-[#6e767d];
-    }
+  .tweet-title-details {
+    @apply text-[#6e767d];
+  }
 
-    .tweet-text {
-      @apply text-[#d9d9d9] text-base;
-    }
+  .tweet-text {
+    @apply text-[#d9d9d9] text-base;
+  }
 
-    .tweet-image {
-      @apply w-full p-[0.3rem_0_0_0];
-    }
+  .tweet-image {
+    @apply w-full p-[0.3rem_0_0_0];
+  }
 
-    .tweet-actions {
-      @apply flex justify-center items-center gap-[5rem] text-[grey] text-base;
-    }
+  .tweet-actions {
+    @apply flex justify-center items-center gap-[5rem] text-[grey] text-base;
+  }
 
-    .tweet-actions svg {
-      @apply w-8 h-auto text-[#2f3336];
-    }
+  .tweet-actions svg {
+    @apply w-8 h-auto text-[#2f3336];
+  }
 
-    .tweet-action {
-      @apply flex items-center justify-center gap-5;
-    }
+  .tweet-action {
+    @apply flex items-center justify-center gap-5;
   }
 
   .sidebar {
-    @apply relative bg-black pl-[100px];
+    @apply relative bg-black pl-[60px];
+  }
 
-    .menu-button {
-      @apply relative flex gap-5 text-2xl;
-    }
+  .menu-button {
+    @apply relative flex gap-5 text-xl h-[40px];
+  }
 
-    .bouton {
-      @apply capitalize p-[0.7rem_1.5rem] border-none rounded-[50px] bg-[#1d9bf0] text-white text-base w-[150px] text-center font-bold;
-    }
+  .bouton {
+    @apply capitalize p-[0.7rem_1.5rem] border-none rounded-[50px] bg-[#1d9bf0] text-white text-base w-[150px] text-center font-bold;
   }
 
   .trend,
