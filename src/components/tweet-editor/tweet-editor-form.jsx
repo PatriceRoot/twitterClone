@@ -25,10 +25,10 @@ export default function TweetEditorForm({ tweets, setTweets }) {
     reset();
   };
   return (
-    <div className="tweet-editor-form">
-      <TweetEditorInput />
+    <form onSubmit={handleSubmit(onSubmit)} className="tweet-editor-form">
+      <TweetEditorInput register={register} ref={input} />
       <TweetEditorButton />
-    </div>
+    </form>
   );
 }
 

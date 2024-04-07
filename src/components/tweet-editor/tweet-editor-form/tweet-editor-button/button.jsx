@@ -1,7 +1,7 @@
-export default function Button (){
-    return (
-        <div className="button">
-            Tweet
-        </div>
-    )
+export default function Button() {
+  return (
+    <button type="submit" className="button">
+      Tweet
+    </button>
+  );
 }
