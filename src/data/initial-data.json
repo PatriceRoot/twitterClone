@@ -1,5 +1,12 @@
 {
-  "tweets" : [
+  "current-user" : {
+    "name": "Bradley Ortiz",
+    "userName": "bradley_",
+    "time": "maintenant",
+    "src": "/profile.png"
+},
+  "tweets" : 
+  [
     {
       "id": "00",
       "tweet_avatar": "/ProfilePhoto2.png",
@@ -47,7 +54,7 @@
         "tweet_actions": {
           "reply": "6.8K",
           "retweet": "36.6K",
-          "react": "267.1K",
+          "react": "267",
           "share": ""
         },
         "tweet_text": "BIG NEWS lol jk still Twitter."
@@ -64,7 +71,7 @@
         "tweet_actions": {
           "reply": "118.7K",
           "retweet": "785.4K.",
-          "react": "3.3M",
+          "react": "3",
           "share": ""
         },
         "tweet_text": "Hello litteraly everyone."
