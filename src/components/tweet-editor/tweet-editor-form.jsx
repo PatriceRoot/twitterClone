@@ -12,12 +12,19 @@ export default function TweetEditorForm({ tweets, setTweets }) {
 
   const onSubmit = (dataForm) => {
     const newTweet = {
-      user: data["current-user"],
-      content: dataForm,
-      actions: {
-        reply: 0,
-        retweet: 0,
-        react: 0,
+      id: "00",
+      tweet_avatar: data["current-user"].src,
+      tweet_content: {
+        tweet_authors: data["current-user"].name,
+        tweet_tag: "@" + data["current-user"].userName,
+        tweet_time: data["current-user"].time,
+        tweet_actions: {
+          reply: "0",
+          retweet: "0",
+          react: "0",
+          share: "",
+        },
+        tweet_text: dataForm.text,
       },
     };
     dataTweets.tweets = [newTweet, ...dataTweets.tweets];
@@ -26,7 +33,7 @@ export default function TweetEditorForm({ tweets, setTweets }) {
   };
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="tweet-editor-form">
-      <TweetEditorInput register={register} ref={input} />
+      <TweetEditorInput register={register} reff={input} />
       <TweetEditorButton />
     </form>
   );

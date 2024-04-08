@@ -11,9 +11,11 @@ import { TweetContext } from "./contexts/tweets.js";
 import initial from "../src/data/initial-data.json";
 
 export default function App() {
+  const data = { ...initial };
+
   return (
     <>
-      <TweetContext.Provider value={initial}>
+      <TweetContext.Provider value={data}>
         <div style={{ flex: "0 0 25%" }}>
           <Sidebar />
         </div>

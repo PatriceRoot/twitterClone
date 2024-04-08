@@ -1,11 +1,11 @@
 import Avatar from "./tweet-editor/avatar";
 import TweetEditorForm from "./tweet-editor/tweet-editor-form";
 
-export default function TweetEditor() {
+export default function TweetEditor({ tweets, setTweets }) {
   return (
     <div className="tweet-editor">
       <Avatar />
-      <TweetEditorForm />
+      <TweetEditorForm tweets={tweets} setTweets={setTweets} />
     </div>
   );
 }
