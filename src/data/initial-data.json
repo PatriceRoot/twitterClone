@@ -1,12 +1,11 @@
 {
-  "current-user" : {
+  "current-user": {
     "name": "Bradley Ortiz",
     "userName": "bradley_",
     "time": "now",
     "src": "/profile.png"
-},
-  "tweets" : 
-  [
+  },
+  "tweets": [
     {
       "id": "00",
       "tweet_avatar": "/ProfilePhoto2.png",
@@ -20,11 +19,9 @@
           "react": "184",
           "share": ""
         },
-        "tweet_text":
-          "President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a 'major breakthrough' that would serve to both strengthen the US steel industry and combat the global climate crisis."
+        "tweet_text": "President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a 'major breakthrough' that would serve to both strengthen the US steel industry and combat the global climate crisis."
       }
     },
-
     {
       "id": "01",
       "tweet_avatar": "/ProfilePhoto1.png",
@@ -38,12 +35,10 @@
           "react": "482",
           "share": ""
         },
-        "tweet_text":
-          "Gardening boomed during the pendemic. Six Black writters share how haw helped them re-establish, and reimagine, a connection to cultivation and the land.",
+        "tweet_text": "Gardening boomed during the pendemic. Six Black writters share how haw helped them re-establish, and reimagine, a connection to cultivation and the land.",
         "tweet_image": "/Post.png"
       }
     },
-
     {
       "id": "02",
       "tweet_avatar": "/ProfilePhoto3.png",
@@ -60,7 +55,6 @@
         "tweet_text": "BIG NEWS lol jk still Twitter."
       }
     },
-
     {
       "id": "03",
       "tweet_avatar": "/ProfilePhoto3.png",
@@ -77,7 +71,6 @@
         "tweet_text": "Hello litteraly everyone."
       }
     },
-
     {
       "id": "04",
       "tweet_avatar": "/ProfilePhoto3.png",
@@ -92,6 +85,23 @@
           "share": ""
         },
         "tweet_text": "Hello litteraly everyone."
+      }
+    },
+    {
+      "id": "00",
+      "tweet_avatar": "/profile.png",
+      "tweet_content": {
+        "tweet_authors": "Bradley Ortiz",
+        "tweet_tag": "@bradley_",
+        "tweet_time": "now",
+        "tweet_actions": {
+          "reply": "0",
+          "retweet": "0",
+          "react": "0",
+          "share": "",
+          "state": "true"
+        },
+        "tweet_text": "Patrice"
       }
     }
   ]

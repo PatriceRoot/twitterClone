@@ -4,7 +4,6 @@ import TweetTitleAuthor from "./tweet-title/tweet-title-author";
 import TweetTitleDetails from "./tweet-title/tweet-title-details";
 
 export default function TweetTitle({ authors, tag, time }) {
-  console.log(authors, tag, time);
   return (
     <Link
       to={`/${tag}`}

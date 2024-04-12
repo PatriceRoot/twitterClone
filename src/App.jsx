@@ -9,6 +9,7 @@ import Footer from "./components/footer.jsx";
 import { Outlet } from "react-router-dom";
 import { TweetContext } from "./contexts/tweets.js";
 import initial from "../src/data/initial-data.json";
+import axios from "axios";
 
 export default function App() {
   const data = { ...initial };
