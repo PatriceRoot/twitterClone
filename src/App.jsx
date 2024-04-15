@@ -1,6 +1,3 @@
-import Header from "./components/header.jsx";
-import TweetEditor from "./components/tweet-editor.jsx";
-import Tweets from "./components/tweets.jsx";
 import Sidebar from "./components/sidebar.jsx";
 import "./App.css";
 import Trends from "./components/trends.jsx";
@@ -9,7 +6,6 @@ import Footer from "./components/footer.jsx";
 import { Outlet } from "react-router-dom";
 import { TweetContext } from "./contexts/tweets.js";
 import initial from "../src/data/initial-data.json";
-import axios from "axios";
 
 export default function App() {
   const data = { ...initial };

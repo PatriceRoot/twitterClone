@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { useContext, useRef, useEffectffect } from "react";
+import { useContext, useRef, useEffect } from "react";
 import TweetEditorButton from "./tweet-editor-form/tweet-editor-buttons";
 import TweetEditorInput from "./tweet-editor-form/tweet-editor-input";
 import { TweetContext } from "../../contexts/tweets";
@@ -14,7 +14,7 @@ export default function TweetEditorForm({ tweets, setTweets }) {
 
   const onSubmit = (dataForm) => {
     const newTweet = {
-      id: "00",
+      // id: "",
       tweet_avatar: data["current-user"].src,
       tweet_content: {
         tweet_authors: data["current-user"].name,
