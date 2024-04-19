@@ -1,12 +1,13 @@
-import { TweetContext } from "../contexts/tweets";
+import { Context } from "../contexts/tweets";
 import Tweet from "./tweets/tweet";
 import { useContext } from "react";
 
 export default function Tweets() {
-  const Json = useContext(TweetContext);
+  const { tweets } = useContext(Context);
+  const tweet = [...tweets];
   return (
     <div className="tweets">
-      {Json.tweets.map((item, i) => (
+      {tweet.reverse().map((item, i) => (
         <Tweet key={i} value={item} />
       ))}
     </div>

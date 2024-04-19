@@ -1,10 +1,10 @@
 import { useContext } from "react";
 import { useParams } from "react-router-dom";
 import Tweet from "../components/tweets";
-import { TweetContext } from "../contexts/tweets";
+import { Context } from "../contexts/tweets";
 
 export default function Profile() {
-  const tweet = useContext(TweetContext);
+  const tweet = useContext(Context);
   const { username } = useParams();
 
   return (

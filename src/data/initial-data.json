@@ -88,7 +88,7 @@
       }
     },
     {
-      "id": "2749",
+      "id": "634a",
       "tweet_avatar": "/profile.png",
       "tweet_content": {
         "tweet_authors": "Bradley Ortiz",
@@ -101,58 +101,7 @@
           "share": "",
           "state": "true"
         },
-        "tweet_text": "Patrice Kalwira"
-      }
-    },
-    {
-      "id": "9c7a",
-      "tweet_avatar": "/profile.png",
-      "tweet_content": {
-        "tweet_authors": "Bradley Ortiz",
-        "tweet_tag": "@bradley_",
-        "tweet_time": "now",
-        "tweet_actions": {
-          "reply": "0",
-          "retweet": "0",
-          "react": "0",
-          "share": "",
-          "state": "true"
-        },
-        "tweet_text": "Kadea"
-      }
-    },
-    {
-      "id": "834b",
-      "tweet_avatar": "/profile.png",
-      "tweet_content": {
-        "tweet_authors": "Bradley Ortiz",
-        "tweet_tag": "@bradley_",
-        "tweet_time": "now",
-        "tweet_actions": {
-          "reply": "0",
-          "retweet": "0",
-          "react": "0",
-          "share": "",
-          "state": "true"
-        },
-        "tweet_text": "ezechiel"
-      }
-    },
-    {
-      "id": "e3f5",
-      "tweet_avatar": "/profile.png",
-      "tweet_content": {
-        "tweet_authors": "Bradley Ortiz",
-        "tweet_tag": "@bradley_",
-        "tweet_time": "now",
-        "tweet_actions": {
-          "reply": "0",
-          "retweet": "0",
-          "react": "0",
-          "share": "",
-          "state": "true"
-        },
-        "tweet_text": "Quelle bonne journée !"
+        "tweet_text": "Hey"
       }
     }
   ]

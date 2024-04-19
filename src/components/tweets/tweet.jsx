@@ -1,10 +1,10 @@
-import { TweetContext } from "../../contexts/tweets";
+import { Context } from "../../contexts/tweets";
 import TweetAvatar from "./tweet-avatar";
 import TweetContent from "./tweet-content";
 
 export default function Tweet({ value }) {
   return (
-    <TweetContext.Provider value={value}>
+    <Context.Provider value={value}>
       <div className="tweet">
         <TweetAvatar
           avatar={value?.tweet_avatar}
@@ -12,6 +12,6 @@ export default function Tweet({ value }) {
         />
         <TweetContent content={value?.tweet_content} />
       </div>
-    </TweetContext.Provider>
+    </Context.Provider>
   );
 }
