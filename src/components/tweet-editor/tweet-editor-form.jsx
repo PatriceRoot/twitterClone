@@ -36,7 +36,7 @@ export default function TweetEditorForm() {
     axios
       .post("http://localhost:3000/tweets", newTweet)
       .then((response) => {
-        setTweets([...tweets, ...response.data]);
+        setTweets([...tweets, { ...response.data }]);
       })
       .catch((error) => console.error(error));
     reset();
