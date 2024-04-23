@@ -3,7 +3,6 @@ import TweetAvatar from "./tweet-avatar";
 import TweetContent from "./tweet-content";
 
 export default function Tweet({ value }) {
-  console.log(value);
   return (
     <Context.Provider value={value}>
       <div className="tweet">

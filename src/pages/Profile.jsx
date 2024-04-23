@@ -6,7 +6,6 @@ import { Context } from "../contexts/tweets";
 export default function Profile() {
   const { tweets } = useContext(Context);
   const { username } = useParams();
-  console.log(tweets);
   return (
     <div>
       <h1>Profile of {username}</h1>
