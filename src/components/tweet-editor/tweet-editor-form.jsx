@@ -34,7 +34,7 @@ export default function TweetEditorForm() {
     };
 
     axios
-      .post("http://localhost:3000/tweets", newTweet)
+      .post("https://tweeter-clone-json-server.onrender.com/tweets", newTweet)
       .then((response) => {
         setTweets([...tweets, { ...response.data }]);
       })
