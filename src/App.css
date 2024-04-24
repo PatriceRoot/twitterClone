@@ -81,7 +81,7 @@
   }
 
   .tweet-title-author {
-    @apply text-base;
+    @apply text-base flex;
   }
 
   .tweet-title-details {
@@ -113,7 +113,7 @@
   }
 
   .menu-button {
-    @apply relative flex gap-5 text-xl h-[40px];
+    @apply relative flex gap-5 text-xl h-[33px];
   }
 
   .bouton {
