@@ -3,9 +3,7 @@ import useFetch from "../useFetch";
 
 export const Context = createContext(null);
 export const TweetContext = ({ children }) => {
-  const { data: tweetData } = useFetch(
-    "https://tweeter-clone-json-server.onrender.com/tweets"
-  );
+  const { data: tweetData } = useFetch("http://localhost:5000/tweets");
 
   const [tweets, setTweets] = useState(null);
   useEffect(() => setTweets(tweetData), [tweetData]);
